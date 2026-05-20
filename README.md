@@ -80,7 +80,7 @@ The `SequentialChain` orchestrates both stages — Stage 1's output feeds Stage 
 Upload a document, configure subject/difficulty, hit generate. That's it.
 
 <div align="center">
-  <img src="docs/images/01_interface.png" width="90%" alt="Main interface"/>
+  <img src="image.png" width="90%" alt="Main interface"/>
 </div>
 
 ### 📋 Beautiful card-based quiz display
@@ -88,7 +88,7 @@ Upload a document, configure subject/difficulty, hit generate. That's it.
 Each MCQ renders as its own card with numbered badge, choices, and a color-coded correct answer reveal:
 
 <div align="center">
-  <img src="docs/images/02_quiz_results.png" width="90%" alt="Generated quiz results"/>
+  <img src="image2.png" width="90%" alt="Generated quiz results"/>
 </div>
 
 ### 🔄 Multiple questions, consistent quality
@@ -96,7 +96,7 @@ Each MCQ renders as its own card with numbered badge, choices, and a color-coded
 The two-stage pipeline ensures every question gets reviewed before display:
 
 <div align="center">
-  <img src="docs/images/03_quiz_questions.png" width="90%" alt="More quiz questions"/>
+  <img src="image3.png" width="90%" alt="More quiz questions"/>
 </div>
 
 ### 🔍 AI Quality Review + CSV Export
@@ -104,7 +104,7 @@ The two-stage pipeline ensures every question gets reviewed before display:
 After generation, the AI's own quality review is shown alongside a one-click CSV export:
 
 <div align="center">
-  <img src="docs/images/04_review_export.png" width="90%" alt="AI review and export"/>
+  <img src="image4.png" width="90%" alt="AI review and export"/>
 </div>
 
 ---

@@ -4,20 +4,21 @@ import pandas as pd
 import traceback
 from dotenv import load_dotenv
 
+
 from langchain_huggingface import HuggingFaceEndpoint, ChatHuggingFace
 from langchain_core.messages import SystemMessage
-from langchain.chains import LLMChain, SequentialChain
-from langchain.prompts import PromptTemplate
+from langchain_classic.chains import LLMChain, SequentialChain
+from langchain_core.prompts import PromptTemplate
 
 load_dotenv()
 KEY = os.getenv("HUGGING_FACE_API_KEY")
 
 
 llm = HuggingFaceEndpoint(
-    repo_id="meta-llama/Llama-3.1-8B-Instruct",
+    repo_id="meta-llama/Llama-3.3-70B-Instruct",  # newer, well-supported
     task="conversational",
-    provider="fireworks-ai",
-    max_new_tokens=256,
+    provider="auto",
+    max_new_tokens=512,
 )
 chat = ChatHuggingFace(llm=llm, verbose=True)
 
