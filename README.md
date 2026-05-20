@@ -19,7 +19,7 @@ each one <strong>generated AND reviewed</strong> by Llama 3.1 before it reaches 
 
 <br/>
 
-<img src="docs/images/01_interface.png" width="85%" alt="QuizGen interface"/>
+<img src="image.png" width="85%" alt="QuizGen interface"/>
 
 </div>
 
